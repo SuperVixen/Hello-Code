@@ -42,29 +42,29 @@
 // На входе два числа. На выходе - какое больше, какое меньше.
 
 
-Console.Write("Введите первое число: ");
-int firstValue = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите первое число: ");
+// int firstValue = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
-int secondValue = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// int secondValue = Convert.ToInt32(Console.ReadLine());
 
-if (firstValue == secondValue)
-{
-    Console.WriteLine(secondValue + " равно " + firstValue);
-}
+// if (firstValue == secondValue)
+// {
+//     Console.WriteLine(secondValue + " равно " + firstValue);
+// }
 
-else 
-{
-    if (firstValue > secondValue)
-    {
-        Console.WriteLine(firstValue + " больше " + secondValue);
-    }
-    else
-    {
-        Console.WriteLine(secondValue + " больше " + firstValue);
-    }
-}
-// FIN
+// else 
+// {
+//     if (firstValue > secondValue)
+//     {
+//         Console.WriteLine(firstValue + " больше " + secondValue);
+//     }
+//     else
+//     {
+//         Console.WriteLine(secondValue + " больше " + firstValue);
+//     }
+// }
+// // FIN
 
 
 // =============================================================
@@ -75,73 +75,73 @@ else
 // // или в одну строку вообще 
 // // print(max(list(map(int, input("Введите числа через пробел: ").split()))))
 
-Console.Write("Введите первое число: ");
-int firstValue = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите первое число: ");
+// int firstValue = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
-int secondValue = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// int secondValue = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите третье число: ");
-int thirdValue = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите третье число: ");
+// int thirdValue = Convert.ToInt32(Console.ReadLine());
 
-if (firstValue > secondValue && firstValue > thirdValue)
-{
-    Console.WriteLine("Максимальное из введённых чисел: " + firstValue);
-}
-else
-{
-    if (secondValue > thirdValue && secondValue > firstValue)
-    {
-        Console.WriteLine("Максимальное из введённых чисел: " + secondValue);
-    }
-    else
-    {
-        Console.WriteLine("Максимальное из введённых чисел: " + thirdValue);
-    }
-}
-// FIN
+// if (firstValue > secondValue && firstValue > thirdValue)
+// {
+//     Console.WriteLine("Максимальное из введённых чисел: " + firstValue);
+// }
+// else
+// {
+//     if (secondValue > thirdValue && secondValue > firstValue)
+//     {
+//         Console.WriteLine("Максимальное из введённых чисел: " + secondValue);
+//     }
+//     else
+//     {
+//         Console.WriteLine("Максимальное из введённых чисел: " + thirdValue);
+//     }
+// }
+// // FIN
 
 // =============================================================
 // Третья задача домашнего задания
 // На входе число. На выходе - odd or even message
 
-Console.Write("Введите число: ");
-int firstValue = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число: ");
+// int firstValue = Convert.ToInt32(Console.ReadLine());
 
-if (firstValue % 2 == 0)
-{
-    Console.WriteLine(firstValue + " - чётное число");
-}
-else
-{
-    Console.WriteLine(firstValue + " - нечётное число");
-}
-// FIN
+// if (firstValue % 2 == 0)
+// {
+//     Console.WriteLine(firstValue + " - чётное число");
+// }
+// else
+// {
+//     Console.WriteLine(firstValue + " - нечётное число");
+// }
+// // FIN
 
 
 // =============================================================
 // Четвёртая задача домашнего задания
 // На входе число. На выходе - even numbers from 1 to N
 
-Console.Write("Введите число: ");
-int firstValue = Convert.ToInt32(Console.ReadLine());
-int number = 0;
+// Console.Write("Введите число: ");
+// int firstValue = Convert.ToInt32(Console.ReadLine());
+// int number = 0;
 
-if (firstValue < 0)
-{
-    while (number >= firstValue)
-    {
-        Console.Write(number + " ");
-        number -=2;
-    }  
-}
-else
-{
-    while (number <= firstValue)
-    {
-        Console.Write(number + " ");
-        number +=2;
-    }  
-}
-Console.WriteLine();
-//FIN
+// if (firstValue < 0)
+// {
+//     while (number >= firstValue)
+//     {
+//         Console.Write(number + " ");
+//         number -=2;
+//     }  
+// }
+// else
+// {
+//     while (number <= firstValue)
+//     {
+//         Console.Write(number + " ");
+//         number +=2;
+//     }  
+// }
+// Console.WriteLine();
+// //FIN
