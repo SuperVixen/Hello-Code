@@ -123,25 +123,25 @@
 // Четвёртая задача домашнего задания
 // На входе число. На выходе - even numbers from 1 to N
 
-// Console.Write("Введите число: ");
-// int firstValue = Convert.ToInt32(Console.ReadLine());
-// int number = 0;
+Console.Write("Введите число: ");
+int firstValue = Convert.ToInt32(Console.ReadLine());
+int number = 0;
 
-// if (firstValue < 0)
-// {
-//     while (number >= firstValue)
-//     {
-//         Console.Write(number + " ");
-//         number -=2;
-//     }  
-// }
-// else
-// {
-//     while (number <= firstValue)
-//     {
-//         Console.Write(number + " ");
-//         number +=2;
-//     }  
-// }
-// Console.WriteLine();
+if (firstValue < 0)
+{
+    while (number >= firstValue)
+    {
+        Console.Write(number + " ");
+        number -=2;
+    }  
+}
+else
+{
+    while (number <= firstValue)
+    {
+        Console.Write(number + " ");
+        number +=2;
+    }  
+}
+Console.WriteLine();
 // //FIN
